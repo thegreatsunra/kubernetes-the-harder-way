@@ -138,7 +138,7 @@ Of course, every certificate must be signed by a Certificate Authority. Technica
 distinct CAs for different kinds of certificates:
 * a CA to sign `etcd` peer certificates
 * a CA to sign `etcd` server certificate(s)
-* a CA to sign `kube-apiserer` server certificate
+* a CA to sign `kube-apiserver` server certificate
 * a CA to sign `kubelet` server certificate
 * a CA to sign `etcd` client certificates
 * a CA to sign `kube-apiserver` client certificates
