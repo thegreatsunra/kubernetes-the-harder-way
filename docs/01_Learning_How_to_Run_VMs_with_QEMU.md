@@ -565,7 +565,7 @@ We can deal with this in two ways:
   ```
   instance-id: ubuntu0
   ```
-  This ID us used by `cloud-init` to determine whether it is running during a "first boot".
+  This ID is used by `cloud-init` to determine whether it is running during a "first boot".
   Changing `instance-id` is like telling `cloud-init` "you are a different machine now" which makes it initialize the
   VM from scratch.
 
